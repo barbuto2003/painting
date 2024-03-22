@@ -31,7 +31,7 @@ jobs:
 
       - run: npm install
 
-      - run: npx wp-pwa build painting
+      - run: npm build painting
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
